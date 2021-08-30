@@ -1,0 +1,141 @@
+@font-face {
+    font-family: lobster;
+    src: url(fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: chakra-petch;
+    src: url(fonts/ChakraPetch-Medium.ttf);
+}
+@font-face {
+    font-family: chakra-petch;
+    src: url(fonts/ChakraPetch-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: permanent-marker;
+    src: url(fonts/PermanentMarker-Regular.ttf);
+}
+@font-face{
+    font-family: righteous;
+    src: url(fonts/Righteous-Regular.ttf);
+}
+@font-face{
+    font-family: quantico;
+    src: url(fonts/Quantico-Regular.ttf);
+}
+@font-face{
+    font-family: quantico;
+    src: url(fonts/Quantico-Bold.ttf);
+    font-weight: bold;
+}
+body{
+    background-image: linear-gradient(to top right, rgb(117, 187, 252), rgb(200,225,254));
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    background-size: cover;
+    font: 13pt chakra-petch;
+    overflow-x: hidden;
+}
+#menu{
+    font-weight: bold;
+    list-style-type: none;
+    align-items: center;
+    height: 80vh;
+}
+#menu li{
+    background-image: url("images/menuCloud.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+
+    width:90%;
+	height:40px;
+	padding:8px;
+
+    text-align: center;
+    padding-top: 25%;
+
+    font-family: chakra-petch;
+    list-style-position:inside;
+	margin-left:-20px;
+	font-size:1em;
+    margin-bottom:3vh;
+}
+#name{
+    font: 50pt lobster;
+}
+#menu{
+    margin-left:0px;
+}
+#contentContainer{
+    width:75%;
+    height: 80vh;
+    background-color: rgba(255,255,255,0.8);
+    overflow-y: scroll;
+    border-radius: 12px;
+    box-shadow: 8px 8px 5px gray;
+    border-style: outset;
+    border-width: 1vh;
+}
+.boxTitle{
+    font: bold 20pt chakra-petch;
+    text-align: left;
+    margin-left: 5vw;
+}
+.boxContent{
+    width:100%;
+}
+.column.boxContent{
+    font:15pt;
+    width: 60%;
+    font-family: chakra-petch;
+    text-align:left;
+    padding: 0px 10px;
+    padding-left:3%;
+    margin-left:0%;
+}
+.subbox{
+    padding:3%;
+}
+.boxImage{
+    width:30%;
+}
+#pageContent{
+    padding:3%;
+}
+#pageTitle{
+    font: bold 30pt quantico;
+    text-align: left;
+    margin-left: 6vw;
+}
+#followerImg{
+    width:50px;
+    position:absolute;
+    transition-duration: 2s;
+}
+.animation{
+    position:absolute;
+    width:19vw;
+    margin-left: -18vw;
+    z-index: -2;
+}
+img.bullet{ 
+    display: none;
+    width:4vw;
+    position:absolute;
+    left:10px;    
+    z-index: -1;
+}
+li:hover img.bullet{
+    display:inline;
+}
+.effect{
+    width: 60%;
+    padding-top:5%;
+    display:block;
+    padding-left:15%;
+    z-index: -1;
+}
+ol li{
+    text-align: left;
+}
