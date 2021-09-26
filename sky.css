@@ -61,6 +61,13 @@ body{
 	font-size:1em;
     margin-bottom:3vh;
 }
+.hypPic{
+    border-style:outset;
+    padding: 1%;
+    border-color:gray;
+    border-width: 1vh;
+
+}
 .hiddenContainer{
     text-align: left;
     padding :3%;
@@ -68,9 +75,12 @@ body{
 .hiddenTitleSpan{
     text-align: left;
     border-style:outset;
+    border-color: rgba(176, 212, 255);
 }
 .hiddenStuff{
     line-height: 2;
+    padding:3%;
+    background-color: rgba(176, 212, 255, 0.5);
 }
 #name{
     font: 50pt lobster;
@@ -81,12 +91,15 @@ body{
 #contentContainer{
     width:75%;
     height: 80vh;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     overflow-y: scroll;
     border-radius: 12px;
     box-shadow: 8px 8px 5px gray;
     border-style: outset;
     border-width: 1vh;
+}
+.embeddedImg{
+    width: 70%;
 }
 .boxTitle{
     font: bold 20pt chakra-petch;
