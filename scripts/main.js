@@ -142,9 +142,10 @@ function displayContents(){
             hiddenTitle.addEventListener("click", function(){
                 toggleHiddenContents(hiddenContent);
             });
+            box.appendChild(hiddenDiv);
         }
         pageContent.appendChild(box);
-        box.appendChild(hiddenDiv);
+        
 
         pageContent.appendChild(document.createElement("hr"));
 
