@@ -2,7 +2,7 @@
 const GENERAL = {fname: "Heeyun", lname: "High School"};
 const THEME = {follower: "airplane.png", aniImage:"pixelCloudBack.png", bullet:"umbrella.png", menuImg:"menuCloud.png", clickedMenuImg:"rainbowCloud.png", menuClickedEffect: "longRain.gif"}
 PORTFOLIO = [
-    {menuTitle:"School",subTitle:"Brooklyn Technical High School", contents:[{boxTitle: "General Info: ", boxContents: "<b>Location: </b> Brooklyn, NY <br /><br /> <b> Total Enrollment: </b> 5,884 (Yes. it is a gigantic school) <br /> <br /><a href = 'bths.edu'>Website</a> <br />", boxPicture:"bths.jpg"}]},
+    {menuTitle:"School",subTitle:"Brooklyn Technical High School", contents:[{boxTitle: "General Info: ", boxContents: "<b>Location: </b> Brooklyn, NY <br /><br /> <b> Total Enrollment: </b> 5,884 (Yes. it is a gigantic school) <br /> <br /><a href = 'www.bths.edu'>Website</a> <br />", boxPicture:"bths.jpg"}]},
     {menuTitle:"Courses",subTitle:"What I learned", contents:[]},
     {menuTitle:"Leadership",  subTitle:"Things I was involved in", contents:[
         {boxTitle:"Girls Who Code Club", boxContents:"<i>2017-2021</i> <br /> As a co-president, I managed events in club. <br /> I had instructed in coding HTML, JS, CSS and guiding website construction and planned weekly meetings attended by 35 members. <br /> The goal of this club is to promote for women in STEM by providing learning opportunities for girls beginning their coding experiences. <br /><br /> <b>Instagram: </b> @bthsgirlswhocode", boxPicture:"GWC_logo.png"},
