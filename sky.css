@@ -61,6 +61,17 @@ body{
 	font-size:1em;
     margin-bottom:3vh;
 }
+.hiddenContainer{
+    text-align: left;
+    padding :3%;
+}
+.hiddenTitleSpan{
+    text-align: left;
+    border-style:outset;
+}
+.hiddenStuff{
+    line-height: 2;
+}
 #name{
     font: 50pt lobster;
 }
