@@ -1,6 +1,6 @@
 //TODO
-const GENERAL = {fname: "Heeyun", lname: "High School"};
-const THEME = {follower: "airplane.png", aniImage:"pixelCloudBack.png", bullet:"umbrella.png", menuImg:"menuCloud.png", clickedMenuImg:"rainbowCloud.png", menuClickedEffect: "longRain.gif"}
+GENERAL = {fname: "Heeyun", lname: "High School"};
+THEME = {follower: "airplane.png", aniImage:"pixelCloudBack.png", bullet:"umbrella.png", menuImg:"menuCloud.png", clickedMenuImg:"rainbowCloud.png", menuClickedEffect: "longRain.gif"}
 PORTFOLIO = [
     {menuTitle:"School",subTitle:"Brooklyn Technical High School", contents:[{boxTitle: "General Info: ", boxContents: "<b>Location: </b> Brooklyn, NY <br /><br /> <b> Total Enrollment: </b> 5,884 (Yes. it is a gigantic school) <br /> <br /><a href = 'https://bths.edu/'>Website</a> <br />", boxPicture:"bths.jpg"}]},
     {menuTitle:"Courses",subTitle:"What I learned", contents:[]},

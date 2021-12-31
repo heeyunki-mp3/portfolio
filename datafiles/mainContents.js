@@ -1,7 +1,7 @@
 //TODO
-const GENERAL = {fname: "Heeyun", lname: "Kim"};
-const THEME = {follower: "airplane.png", aniImage:"pixelCloudBack.png", bullet:"umbrella.png", menuImg:"menuCloud.png", clickedMenuImg:"rainbowCloud.png", menuClickedEffect: "longRain.gif"}
-const PORTFOLIO = [{menuTitle:"About me",subTitle:"Who Am I", contents:[{boxTitle:"Heeyun Kim", boxContents:"Enthusiastic student majoring in software engineering. Passionate in cybersecurity and data science. <br /> <br /> Please click on the icon below to learn more amazing stuff about me!<br /> <br /><a href = 'highschool.html'><img class = 'hypPic'src = 'images/school_pixel.png'/></a>", boxPicture: "HeeyunProfile.jpg"},{boxTitle:"Skills", boxContents: "<b>- Computer Skills:</b> <ul> <li>Java</li> <li>Python</li> <li>HTML, CSS, JavaScript</li> <li>Shell Scripting</li> <li>Unity</li> <li>SQL</li> <li>Microsoft Office skills</li></ul>", boxPicture:"cloud1.png"},{boxTitle:"Language", boxContents:"<ol> <li>Proficient Korean</li> <li>English</li> <ol>", boxPicture:null}]},
+GENERAL = {fname: "Heeyun", lname: "Kim"};
+THEME = {follower: "airplane.png", aniImage:"pixelCloudBack.png", bullet:"umbrella.png", menuImg:"menuCloud.png", clickedMenuImg:"rainbowCloud.png", menuClickedEffect: "longRain.gif"}
+PORTFOLIO = [{menuTitle:"About me",subTitle:"Who Am I", contents:[{boxTitle:"Heeyun Kim", boxContents:"Enthusiastic student majoring in software engineering. Passionate in cybersecurity and data science. <br /> <br /> Please click on the icon below to learn more amazing stuff about me!<br /> <br /><a href = 'highschool.html'><img class = 'hypPic'src = 'images/school_pixel.png'/></a>", boxPicture: "HeeyunProfile.jpg"},{boxTitle:"Skills", boxContents: "<b>- Computer Skills:</b> <ul> <li>Java</li> <li>Python</li> <li>HTML, CSS, JavaScript</li> <li>Shell Scripting</li> <li>Unity</li> <li>SQL</li> <li>Microsoft Office skills</li></ul>", boxPicture:"cloud1.png"},{boxTitle:"Language", boxContents:"<ol> <li>Proficient Korean</li> <li>English</li> <ol>", boxPicture:null}]},
 {menuTitle:"Academics",  subTitle:"What & Where I Learned", contents:[
     {boxTitle:"Columbia Univerisity", boxContents: "<i>2021-present</i> <br /><br /> <b>School: </b>Fu Foundation School of Engineering and Applied Science <br /><br /> <b>Intended Major: </b> Computer Science", boxPicture:"columbia.png"},
     {boxTitle:"Brooklyn Technical High School", boxContents:"<i>2017-2021</i> <br /> Software Engineering Major <br /> <br /> Click the school icon below to see the portfolio page about my high school life: <br /> <br /><a href = 'highschool.html'><img class = 'hypPic'src = 'images/school_pixel.png'/></a>", boxPicture:"bths.jpg"}]},
@@ -11,4 +11,21 @@ const PORTFOLIO = [{menuTitle:"About me",subTitle:"Who Am I", contents:[{boxTitl
 {menuTitle:"Projects", subTitle:"What I made", contents:[
     {boxTitle:"Be My Guest <i> - Java </i>", boxContents:"Walk around the lounge. Get some drink, talk to people, and play mini games! <br /> <br /> Reminiscing Nintendo Pokemon games in my childhood, I designed this project base on old Pokemon games. <br /><br /> <a href = 'https://github.com/heeyunki-mp3/Be_My_Guest'>Github page</a> of this project", boxPicture:"BeMyGuest.gif"},
     {boxTitle:"Updating other projects... ", boxContents:"Pokemon Type Internet Game, Voltorb Flip Game, and more projects will be up here soon!", boxPicture:null}]},
+{menuTitle:"Clubs", subTitle: "What I Do In Free Time", boxContents:[
+    {
+        boxTitle:"Game Development",
+        boxContents:"Creating 2D game using Unity",
+        boxPicture:""
+    },
+    {
+        boxTitle:"WKCR-FM",
+        boxContents:"Runs show \"K-pop Is Not All About Idol\" in \"In All Language\" department in the station. <br /> I also ran a 9-hour live radio show on Christmas of 2021 with Bach music. <br /><br /> <a href = 'wkcr.org'>Website</a>",
+        boxPicture:"wkcr.jpg"
+    },
+    {
+        boxTitle:"Girls Who Code",
+        boxContents:"Recruitement Committee",
+        boxPicture:null
+    }
+]},
 {menuTitle:"Contacts",  subTitle:"Where I Can Be Reached", contents:[{boxTitle:"Email", boxContents:"hk3187@columbia.edu", boxPicture:null},{boxTitle:"Social Media", boxContents: "<b>Instagram: </b> @heeyun_kim <br /> <br /> <b>Facebook: </b> Heeyun Kim", boxPicture:null}]}];

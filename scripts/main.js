@@ -183,7 +183,7 @@ function display(){
 function animateBackground(){
     animatingObjList =[];
 
-    setInterval(addAnimation, 4000);
+    setInterval(addAnimation, 5000);
     setInterval(startAnimation, 200);
 }
 function addAnimation(){
