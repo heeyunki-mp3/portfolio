@@ -11,7 +11,7 @@ PORTFOLIO = [{menuTitle:"About me",subTitle:"Who Am I", contents:[{boxTitle:"Hee
 {menuTitle:"Projects", subTitle:"What I made", contents:[
     {boxTitle:"Be My Guest <i> - Java </i>", boxContents:"Walk around the lounge. Get some drink, talk to people, and play mini games! <br /> <br /> Reminiscing Nintendo Pokemon games in my childhood, I designed this project base on old Pokemon games. <br /><br /> <a href = 'https://github.com/heeyunki-mp3/Be_My_Guest'>Github page</a> of this project", boxPicture:"BeMyGuest.gif"},
     {boxTitle:"Updating other projects... ", boxContents:"Pokemon Type Internet Game, Voltorb Flip Game, and more projects will be up here soon!", boxPicture:null}]},
-{menuTitle:"Clubs", subTitle: "What I Do In Free Time", boxContents:[
+{menuTitle:"Clubs", subTitle: "What I Do In Free Time", contents:[
     {
         boxTitle:"Game Development",
         boxContents:"Creating 2D game using Unity",
