@@ -19,7 +19,7 @@ PORTFOLIO = [{menuTitle:"About me",subTitle:"Who Am I", contents:[{boxTitle:"Hee
     },
     {
         boxTitle:"WKCR-FM",
-        boxContents:"I run show \"K-pop Is Not All About Idol\" in \"In All Language\" department in the station. <br /><br /> I also ran a 9-hour live radio show on Christmas of 2021 with Bach music. <br /><br /> <a href = 'wkcr.org'>Website</a>",
+        boxContents:"I run show \"K-pop Is Not All About Idol\" in \"In All Language\" department in the station. <br /><br /> I also ran a 9-hour live radio show on Christmas of 2021 with Bach music. <br /><br /> <a href = 'https://www.cc-seas.columbia.edu/wkcr/'>Website</a>",
         boxPicture:"wkcr.jpg"
     },
     {
